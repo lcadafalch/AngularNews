@@ -16,5 +16,12 @@ export class ServiceService {
 
   }
 
+  getTopNews(){
+  
+
+    return this._data.get("https://newsapi.org/v2/top-headlines?country=mx&apiKey=7606c2c739ca4d90a5bae191abc9378b")
+  }
+
+
 }
 

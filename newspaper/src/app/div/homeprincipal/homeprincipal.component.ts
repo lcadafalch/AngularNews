@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ServiceService } from 'src/app/services/service.service';
+import { Router, Routes } from '@angular/router'
+
 
 @Component({
   selector: 'app-homeprincipal',
@@ -10,20 +12,21 @@ export class HomeprincipalComponent {
 
   datosApi: string = ""
 
-  constructor(public _data: ServiceService) {
+
+  constructor(public _data: ServiceService, private Router: Router) {
+    
 
     this._data.getNoticias()
       .subscribe((data: any) => {
 
-        this.datosApi = data 
-        console.log(this.datosApi)
+        this.datosApi = data
+
+
 
       })
 
-
-
-
   }
-
-
+  verNoticia(i:number) {
+    console.log(i)
+  }
 }
