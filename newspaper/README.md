@@ -1,27 +1,39 @@
-# Newspaper
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.17.
+<snippet>
+  <content>
+# ${NewsApi}
 
-## Development server
+Este proyecto trabaja con la api de News pública que da noticias , a través de 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Installation
+TODO:Hacer un clone o un fork del proyecto , es necesario tener instalado , node , y angular , 
+## Usage
+TODO: Tener el token de  la api de News en la web de News Api
+## Contributing
+1. Haz un Fork !
+2. Crea tu branch: `git checkout -b my-new-feature`
+3. Commitea tus cambios: `git commit -am 'Add some feature'`
+4. Pushealo: `git push origin my-new-feature`
+5. Submit a pull request 
+## History
+Al descargarte el repositorio , y tienes el token que te proviene de nes Apo te encontrarás con una home con todas las Noticias , un buscador y podras entrar a ver todas las noticias
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Stack
+Se ha usado básicamente en el framework de Angular versión 8
+-CSS 3
+-Typescript 
+-Html 5
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Credits
+youtube 
+## License
+MIT
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## In progress
+Trabajando  en un buscador , que busca a noticias de México a través de un buscador
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+</snippet>
+  </content>
