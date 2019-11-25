@@ -1,6 +1,0 @@
-<h2>Buscador de Noticias</h2>
-
- <input type="text" name="fname" #noticia class="input" (keyup)="buscarNoticia(noticia.value)"><br>
- <div *ngFor="let noticia of apiTopNews.articles ">
-     <p>{{noticia.description}}</p>
- </div>
